@@ -1,6 +1,6 @@
 import './scss/test.scss';
-import cards from './js/components/products-item';
+import graph from './js/services/liteChart';
 
 document.addEventListener('DOMContentLoaded', () => {
-    cards();
+    graph();
 });
