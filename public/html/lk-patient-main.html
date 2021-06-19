@@ -30,17 +30,32 @@
             <button type="button">Добавить данные</button>
         </section>
 
-        <section class="helth_graph_max_press">
-           <div class="helth_graph" id="helth_graph_1"></div>
-        </section>
-
-        <section class="helth_graph_min_press">
-            <div class="helth_graph" id="helth_graph_2"></div>
-        </section>
-
-        <section class="helth_graph_pulse">
-            <div class="helth_graph" id="helth_graph_3"></div>
-        </section>
+        <div class="offer__slider-counter">
+            <div class="offer__slider-prev">
+                <p>назад</p>
+            </div>
+            <span id="current">1</span>
+            /
+            <span id="total">3</span>
+            <div class="offer__slider-next">
+                <p>вперед</p>
+            </div>
+        </div>
+        <div class="offer__slider">
+        <div class="offer__slider-wrapper">
+            <div class="offer__slider-inner">
+                <div class="offer__slide">
+                    <div class="helth_graph" id="helth_graph_1"></div>
+                </div>
+                <div class="offer__slide">
+                    <div class="helth_graph" id="helth_graph_2"></div>
+                </div>
+                <div class="offer__slide">
+                    <div class="helth_graph" id="helth_graph_3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <section class="helth_table">
             <table>
@@ -55,6 +70,7 @@
     </footer>
 
     <script src="./liteChart.min.js"></script>
+    <script src="../bundle.js"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function(){

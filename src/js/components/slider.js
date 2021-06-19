@@ -1,8 +1,3 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-var __webpack_exports__ = {};
-
-;// CONCATENATED MODULE: ./src/js/components/slider.js
  // Слайдер
 
 function slider({container, slide, nextArrow, prevArrow, totalCounter, curentCounter, wrapper, field}) {
@@ -124,22 +119,4 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, curentCou
     });
 }
 
-/* harmony default export */ const components_slider = (slider);
-;// CONCATENATED MODULE: ./src/index.js
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    components_slider({
-        container: '.offer__slider',
-        slide: '.offer__slide',
-        nextArrow: '.offer__slider-next',
-        prevArrow: '.offer__slider-prev',
-        totalCounter: '#total',
-        curentCounter: '#current',
-        wrapper: '.offer__slider-wrapper',
-        field: '.offer__slider-inner'
-    });
-});
-/******/ })()
-;
+export default slider;
