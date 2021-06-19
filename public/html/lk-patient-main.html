@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKAR</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="all-header">
+            <div class="header-main">
+                <a href="#"><img src="../img/logo.png" alt="logo"></a>
+                <h4>IKAR</h4>
+                <img src="../icons/message_empty.png" alt="сообщение">
+                <p>Фамилия и.о.(пациента)</p>
+                <p>Фамилия и.о.(врача)</p>
+                <a href="../index.html"><img src="../icons/exit_icon.png" alt="выход"></a>
+                <img src="../icons/menu-button.png" alt="меню">
+            </div>
+        </div>
+    </header>
+    <div class="helth_container">
+        <section class="helth_status">
+            <p>Ваше здоровье на данный момент: в норме!</p>
+        </section>
+
+        <section class="add_data">
+            <button type="button">Добавить данные</button>
+        </section>
+
+        <section class="helth_graph_max_press">
+            <canvas class="canvas"></canvas>
+        </section>
+
+        <section class="helth_graph_min_press">
+            <canvas class="canvas"></canvas>
+        </section>
+
+        <section class="helth_graph_pulse">
+            <canvas class="canvas"></canvas>
+        </section>
+
+        <section class="helth_table">
+            <table>
+                <tr><th>Дата</th><th>Верхнее давление</th><th>Нижнее давление</th>
+                <th>Пульс</th><th>Температура</th><th>Комментарий</th></tr>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy Все права защищены 2021</p>
+    </footer>
+</body>
+</html>

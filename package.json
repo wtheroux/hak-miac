@@ -1,0 +1,23 @@
+{
+  "name": "pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^5.2.4",
+    "json-server": "^0.16.3",
+    "mini-css-extract-plugin": "^1.5.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1"
+  },
+  "devDependencies": {
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
